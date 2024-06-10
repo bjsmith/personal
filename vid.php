@@ -12,7 +12,7 @@ if (isset($_GET['vidid'])) {
     $vidid = htmlspecialchars($vidid, ENT_QUOTES, 'UTF-8');
 
     // Display the value
-    echo "<h1>The value of the 'test' parameter is: $vidid</h1>";
+//    echo "<h1>The value of the 'test' parameter is: $vidid</h1>";
 } else {
     echo "<h1>No 'test' parameter provided!</h1>";
 }
@@ -25,7 +25,7 @@ if (isset($_GET['username'])) {
     $username = htmlspecialchars($username, ENT_QUOTES, 'UTF-8');
 
     // Display the value
-    echo "<h1>The value of the 'userid' parameter is: $username</h1>";
+//    echo "<h1>The value of the 'userid' parameter is: $username</h1>";
 } else {
     echo "<h1>No 'userid' parameter provided!</h1>";
 }
@@ -34,8 +34,8 @@ if (isset($_GET['username'])) {
 
 	
 
-    testTikTok2.html
-    This is test tiktok 2
+<!--    testTikTok2.html
+    This is test tiktok 2-->
     <br />
     
 
