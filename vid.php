@@ -1,5 +1,5 @@
 <html>
-    <body>
+    <body style="margin: 1px">
     <?php
 // index.php
 
@@ -36,10 +36,9 @@ if (isset($_GET['username'])) {
 
 <!--    testTikTok2.html
     This is test tiktok 2-->
-    <br />
     
 
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@<?php echo $username; ?>/video/<?php echo $vidid; ?>" data-video-id="<?php echo $vidid; ?>" style="max-width: 605px;min-width: 325px;" > 
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@<?php echo $username; ?>/video/<?php echo $vidid; ?>" data-video-id="<?php echo $vidid; ?>" style="max-width: 605px;min-width: 325px; margin: 0px auto" > 
         
         	<section> 
         		<a target="_blank" title="@shortfilm.mp4" href="https://www.tiktok.com/@<?php echo $username; ?>?refer=embed">@<?php echo $username; ?></a> Video Title
